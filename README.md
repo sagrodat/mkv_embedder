@@ -14,13 +14,13 @@ MKV Embedder is a simple command-line tool designed to embed additional informat
 1. **Clone the Repository:**
     
     ```
-    git clone https://github.com/yourusername/mkv_embedder.git
+    git clone https://github.com/sagrodat/mkv_embedder.git
     cd mkv_embedder
     ```
     
 2. **Ensure Dependencies:**
     - This tool requires Python 3.
-    - The MKV utilities (`mkvmerge.exe`, `mkvextract.exe`, `mkvinfo.exe`) must be present in the `bin` directory. If they are missing, download and place them there.
+    - The MKVToolNix utilities (`mkvmerge.exe`, `mkvextract.exe`, `mkvinfo.exe`) must be present in the `bin` directory. They are placed there by default.
 
 ## Usage
 
@@ -55,6 +55,6 @@ python mkv_embedder.py extract -i path/to/input_with_attachment.mkv
 - If the required MKV utilities are not found in the `bin` directory, the tool will exit with an error message.
 - Detailed error messages are provided to help diagnose any issues during embedding or extraction.
 
-## License
-
-This project is licensed under the MIT License.
+## Acknowledgements 
+This tool is made available thanks to [MKVToolNix](https://mkvtoolnix.org/), their excellent and well documented suite of utilities enable this mini-project to exist.
+MKVToolNix provides the functionality of this project within but the script was created for a more directed and easier use.
