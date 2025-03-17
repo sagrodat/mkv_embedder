@@ -1,5 +1,3 @@
-# Untitled
-
 # MKV Embedder
 
 MKV Embedder is a simple command-line tool designed to embed additional information into MKV video files and extract it later. The main goal is to allow MKV files to contain more than just video data—now they can hold extra files (currently ZIP attachments) that may contain metadata or supplementary content.
